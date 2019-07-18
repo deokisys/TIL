@@ -1,7 +1,7 @@
 var a =1;
 var b ="1";
 var b =3;//중복 선언 가능
-
+//efefe
 let count = 0;
 let count_al = [];
 const sequence_plus = (exename) => count_al[count++]=exename;
