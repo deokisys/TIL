@@ -1,0 +1,7 @@
+로컬 head에 머물고있는것을 원격 서버로 올리기
+
+master가지를 올리기
+git push origin <master>
+- merge하듯이 master에서 test가지로 올리는건 안됨
+- 이름 쓴 가지에대해서만 push됨 헷갈렸음
+

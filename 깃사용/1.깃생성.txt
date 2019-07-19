@@ -1,0 +1,18 @@
+저장소 생성
+git init
+
+원격 저장소 연결
+git remote add origin 주소.git
+
+
+저장소 받기 
+git clone 주소
+
+한 branch만 받기
+git clone 주소 -b <가지이름> --single-branch 
+
+깃 원격 주소 확인
+git remote -v
+
+깃 원격 주소 변경
+git remote set-url origin 주소.git

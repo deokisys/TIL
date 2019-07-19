@@ -1,0 +1,7 @@
+추가
+git add 파일이름
+git add * (모든 파일)
+
+확정
+git commit -m "설명"
+	- 여러번 add한것을 모아서 가능 commit한번으로 

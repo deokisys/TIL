@@ -1,0 +1,10 @@
+다른 branch로 이동
+git checkout develop
+
+삭제
+git branch --delete feature-01
+강제 삭제
+git branch -D feature-01
+
+원격저장소 branch삭제
+git push origin :feature-01

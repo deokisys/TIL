@@ -1,0 +1,14 @@
+단순 생성
+git branch feature
+
+생성 후 이동
+git checkout -b feature-01
+
+현재 branch확인
+git branch
+
+원격저장소로 갱신 / 원격저장소에 branch연동
+git push origin feature-01
+
+가지 이동
+git checkout <가지이름>
