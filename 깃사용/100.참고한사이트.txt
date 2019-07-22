@@ -7,3 +7,5 @@ https://mytory.net/archives/10078
 https://trustyoo86.github.io/git/2017/11/28/git-remote-branch-create.html
 
 http://minsone.github.io/git/github-managing-remotes-changing-a-remotes-url
+
+https://milooy.wordpress.com/2017/06/21/working-together-with-github-tutorial/
