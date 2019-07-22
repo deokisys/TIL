@@ -1,18 +1,18 @@
-ÀúÀå¼Ò »ı¼º
+ï»¿ì €ì¥ì†Œ ìƒì„±
 git init
 
-¿ø°İ ÀúÀå¼Ò ¿¬°á
-git remote add origin ÁÖ¼Ò.git
+ì›ê²© ì €ì¥ì†Œ ì—°ê²°
+git remote add origin ì£¼ì†Œ.git
 
 
-ÀúÀå¼Ò ¹Ş±â 
-git clone ÁÖ¼Ò
+ì €ì¥ì†Œ ë°›ê¸° 
+git clone ì£¼ì†Œ
 
-ÇÑ branch¸¸ ¹Ş±â
-git clone ÁÖ¼Ò -b <°¡ÁöÀÌ¸§> --single-branch 
+í•œ branchë§Œ ë°›ê¸°
+git clone ì£¼ì†Œ -b <ê°€ì§€ì´ë¦„> --single-branch 
 
-±ê ¿ø°İ ÁÖ¼Ò È®ÀÎ
+ê¹ƒ ì›ê²© ì£¼ì†Œ í™•ì¸
 git remote -v
 
-±ê ¿ø°İ ÁÖ¼Ò º¯°æ
-git remote set-url origin ÁÖ¼Ò.git
+ê¹ƒ ì›ê²© ì£¼ì†Œ ë³€ê²½
+git remote set-url origin ì£¼ì†Œ.git

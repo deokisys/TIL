@@ -1,14 +1,14 @@
-´Ü¼ø »ı¼º
-git branch feature
+ï»¿ë‹¨ìˆœ ìƒì„±
+git branch <ì´ë¦„>
 
-»ı¼º ÈÄ ÀÌµ¿
-git checkout -b feature-01
+ìƒì„± í›„ ì´ë™
+git checkout -b <ì´ë¦„>
 
-ÇöÀç branchÈ®ÀÎ
+í˜„ì¬ branchí™•ì¸
 git branch
 
-¿ø°İÀúÀå¼Ò·Î °»½Å / ¿ø°İÀúÀå¼Ò¿¡ branch¿¬µ¿
-git push origin feature-01
+ì›ê²©ì €ì¥ì†Œë¡œ ê°±ì‹  / ì›ê²©ì €ì¥ì†Œì— branchì—°ë™
+git push origin <ì´ë¦„>
 
-°¡Áö ÀÌµ¿
-git checkout <°¡ÁöÀÌ¸§>
+ê°€ì§€ ì´ë™
+git checkout <ê°€ì§€ì´ë¦„>

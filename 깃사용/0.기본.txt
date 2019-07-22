@@ -1,18 +1,18 @@
-±âº» ¿ø¸®
+ï»¿ê¸°ë³¸ ì›ë¦¬
 
-·ÎÄÃ(³»ÄÄÇ»ÅÍ) / ¸®¸ðÆ®(±ê È¨ÆäÀÌÁö ¼­¹ö)
+ë¡œì»¬(ë‚´ì»´í“¨í„°) / ë¦¬ëª¨íŠ¸(ê¹ƒ í™ˆíŽ˜ì´ì§€ ì„œë²„)
 
-·ÎÄÃÀº 3ºÎºÐ
+ë¡œì»¬ì€ 3ë¶€ë¶„
 working dir / index(stage) / head
 
-working dir¿¡¼­ add·Î index(stage)¿¡ ¿Ã¸²
+working dirì—ì„œ addë¡œ index(stage)ì— ì˜¬ë¦¼
 
-commitÀ» ÅëÇØ head·Î È®Á¤
+commitì„ í†µí•´ headë¡œ í™•ì •
 
-head¿¡¼­ ¸®¸ðÆ®¼­¹ö °¥ ÁØºñ¸¦ ÇÔ
+headì—ì„œ ë¦¬ëª¨íŠ¸ì„œë²„ ê°ˆ ì¤€ë¹„ë¥¼ í•¨
 
-push¸¦ ÅëÇØ ¿ø°Ý->¸®¸ðÆ®·Î °»½Å
+pushë¥¼ í†µí•´ ì›ê²©->ë¦¬ëª¨íŠ¸ë¡œ ê°±ì‹ 
 
-pullÀº ¸®¸ðÆ®->¿ø°ÝÀ¸·Î °»½Å
+pullì€ ë¦¬ëª¨íŠ¸->ì›ê²©ìœ¼ë¡œ ê°±ì‹ 
 
-branch·Î ÇöÀç »óÅÂ¸¦ º¹»ç ºÐ¸® °¡´É - »õ·Î¿î ÀÏºÎ ±â´É Ãß°¡½Ã À¯¿ë
+branchë¡œ í˜„ìž¬ ìƒíƒœë¥¼ ë³µì‚¬ ë¶„ë¦¬ ê°€ëŠ¥ - ìƒˆë¡œìš´ ì¼ë¶€ ê¸°ëŠ¥ ì¶”ê°€ì‹œ ìœ ìš©

@@ -1,29 +1,29 @@
-
-Ä¿¹Ô ¼öÁ¤
+ï»¿
+ì»¤ë°‹ ìˆ˜ì •
 git commit --amend
-- ¹æ±ÝÀü commitÇÑ°æ¿ì ¸Þ½ÃÁö¸¸ ¼öÁ¤ÀÌµÈ´Ù.
-- commitÀ» ³Ê¹« ÀÏÂïÇÑ°æ¿ì addÇÏ°í ÀÌ°É ½ÇÇàÇÏ¸é stage¿¡ ¿Ã¶ó¿Â°Å Æ÷ÇÔÇØ¼­ commitÀ» µ¤¾î ½ÇÇàµÊ
-¿¹) $ git commit -m 'initial commit'
+- ë°©ê¸ˆì „ commití•œê²½ìš° ë©”ì‹œì§€ë§Œ ìˆ˜ì •ì´ëœë‹¤.
+- commitì„ ë„ˆë¬´ ì¼ì°í•œê²½ìš° addí•˜ê³  ì´ê±¸ ì‹¤í–‰í•˜ë©´ stageì— ì˜¬ë¼ì˜¨ê±° í¬í•¨í•´ì„œ commitì„ ë®ì–´ ì‹¤í–‰ë¨
+ì˜ˆ) $ git commit -m 'initial commit'
     $ git add forgotten_file
     $ git commit --amend
 
 
-stage¿¡¼­ »©³»±â
-git reset HEAD <ÆÄÀÏ¸í>
+stageì—ì„œ ë¹¼ë‚´ê¸°
+git reset HEAD <íŒŒì¼ëª…>
 
 
-ÆÄÀÏÀ» ¼öÁ¤ÇÏ°í³ª¼­ µÇµ¹¸®±â 
-git checkout -- <ÆÄÀÏ¸í>
-- ÃÖ±Ù Ä¿¹ÔµÈ ¹öÀü / Ã³À½ checkoutÇÑ ³»¿ëÀ¸·Î 
-- (stage¿¡ µé¾î°¡±âÀüÀÌ¸é °¡´ÉÇÔ) = add ÇÏ±âÀü
+íŒŒì¼ì„ ìˆ˜ì •í•˜ê³ ë‚˜ì„œ ë˜ëŒë¦¬ê¸° 
+git checkout -- <íŒŒì¼ëª…>
+- ìµœê·¼ ì»¤ë°‹ëœ ë²„ì „ / ì²˜ìŒ checkoutí•œ ë‚´ìš©ìœ¼ë¡œ 
+- (stageì— ë“¤ì–´ê°€ê¸°ì „ì´ë©´ ê°€ëŠ¥í•¨) = add í•˜ê¸°ì „
 
-commitÇÏ°í³ª¼­ µÇµ¹¸®±â
+commití•˜ê³ ë‚˜ì„œ ë˜ëŒë¦¬ê¸°
 git checkout HEAD~1
-  - µÚ¿¡ ¼ýÀÚ´Â À§Ä¡°¡ ¾Æ´Ô , ¾ó¸¸Å­ ½ÇÇàÃë¼Ò ½ÃÅ³°ÍÀÎ°¡ÀÓ 
-  - ÇÑ¹ø¿¡ 10¹øÂ° µÚ·Î°¡·Á¸é 10À» ÇÏ°í, ÇÏ³ª¾¿ È®ÀÎÇÏ´Â°Ç 1·Î 10¹ø ½ÇÇàÇÏ´Â°ÅÀÓ 
-  - ¿ø·¡´ë·Î µ¹¾Æ°¡·Á¸é git checkout master ±×³É µ¹¾Æ¿À¸éµÊ
+  - ë’¤ì— ìˆ«ìžëŠ” ìœ„ì¹˜ê°€ ì•„ë‹˜ , ì–¼ë§Œí¼ ì‹¤í–‰ì·¨ì†Œ ì‹œí‚¬ê²ƒì¸ê°€ìž„ 
+  - í•œë²ˆì— 10ë²ˆì§¸ ë’¤ë¡œê°€ë ¤ë©´ 10ì„ í•˜ê³ , í•˜ë‚˜ì”© í™•ì¸í•˜ëŠ”ê±´ 1ë¡œ 10ë²ˆ ì‹¤í–‰í•˜ëŠ”ê±°ìž„ 
+  - ì›ëž˜ëŒ€ë¡œ ëŒì•„ê°€ë ¤ë©´ git checkout master ê·¸ëƒ¥ ëŒì•„ì˜¤ë©´ë¨
 
-Æ¯Á¤ À§Ä¡·Î µ¹¾Æ°¡±â
-git checkout <6ÀÚ¸®¹øÈ£>
-  - ¹øÈ£´Â git log·Î È®ÀÎÇÏÀÚ ¾Æ´Ï¸é »çÀÌÆ®¿¡¼­ È®ÀÎ
-  - µ¹¾Æ¿À´Â°Ç À§¿Í °°À½
+íŠ¹ì • ìœ„ì¹˜ë¡œ ëŒì•„ê°€ê¸°
+git checkout <6ìžë¦¬ë²ˆí˜¸>
+  - ë²ˆí˜¸ëŠ” git logë¡œ í™•ì¸í•˜ìž ì•„ë‹ˆë©´ ì‚¬ì´íŠ¸ì—ì„œ í™•ì¸
+  - ëŒì•„ì˜¤ëŠ”ê±´ ìœ„ì™€ ê°™ìŒ

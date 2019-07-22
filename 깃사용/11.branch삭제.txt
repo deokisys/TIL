@@ -1,10 +1,10 @@
-´Ù¸¥ branch·Î ÀÌµ¿
+ï»¿ë‹¤ë¥¸ branchë¡œ ì´ë™
 git checkout develop
 
-»èÁ¦
+ì‚­ì œ
 git branch --delete feature-01
-°­Á¦ »èÁ¦
+ê°•ì œ ì‚­ì œ
 git branch -D feature-01
 
-¿ø°İÀúÀå¼Ò branch»èÁ¦
+ì›ê²©ì €ì¥ì†Œ branchì‚­ì œ
 git push origin :feature-01
