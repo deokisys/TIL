@@ -5,7 +5,7 @@ var b =3;//중복 선언 가능
 //fefffe - test연습
 let count = 0;
 let count_al = [];
-const sequence_plus = (exename) => count_al[count++]=exename;
+const sequence_plus = (exenam) => count_al[count++]=exenam;
 
 let c = 1; //
 //let c = 3;// 중복 선언 불가능
