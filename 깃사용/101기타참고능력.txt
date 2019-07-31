@@ -1,0 +1,5 @@
+﻿-commit하면서 이슈 close
+https://www.hahwul.com/2018/07/closing-git-issue-with-commit.html
+git commit -m "aaa  <#이슈넘버>"
+ex) git commit -m "test 이슈 종료 #1" 
+-- 1번 이슈가 닫힌다.

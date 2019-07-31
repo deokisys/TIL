@@ -5,3 +5,6 @@ git add * (모든 파일)
 확정
 git commit -m "설명"
 	- 여러번 add한것을 모아서 가능 commit한번으로 
+
+이슈종료
+git commit -m "close #이슈번호"
